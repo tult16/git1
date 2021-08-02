@@ -25,4 +25,5 @@ Các command git cơ bản
 - git add .  : add tất cả file vào staging
 - git commit -m " nội dung message": commit code
 - git push origin tên_nhánh: đẩy code lên nhánh( origin là tên remote người dùng đặt)
+- git pull origin tên_nhánh: lấy code từ tên_nhánh về local
 
