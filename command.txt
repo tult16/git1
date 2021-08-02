@@ -1,0 +1,28 @@
+Step1: git init
+-> Khởi tạo repo dưới local
+
+Step2: git checkout -b develop
+-> Tạo nhánh mới có tên develop
+
+Step3: commit code
+    git add fileName -> add từng file vào staging
+    git add .        -> add tất cả file vào staging
+    git commit -m "nội dung commit"
+
+Step4: Add remote
+    git remote add origin git@github.com:tult16/git.git
+
+Step5: Push code
+    git push origin develop
+
+Các command git cơ bản
+- git branch -d tên_nhánh : xóa tên_nhánh
+- git checkout -b tên_nhánh: tạo 1 nhánh mới và chuyển đến nhánh đó
+- git branch: liệt kê các nhánh
+- git checkout tên_nhánh : chuyển đến nhánh
+- git remote add tên_remote link_remote : Thêm mới một remote
+- git add fileName : add từng file vào staging
+- git add .  : add tất cả file vào staging
+- git commit -m " nội dung message": commit code
+- git push origin tên_nhánh: đẩy code lên nhánh( origin là tên remote người dùng đặt)
+
